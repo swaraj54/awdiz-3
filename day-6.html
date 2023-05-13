@@ -53,6 +53,11 @@
             margin-left: 20px;
         }
 
+        .margin-left-50px {
+            /* margin-left: 200px; */
+            border: 1px solid black;
+        }
+
         #skills {
             width: 100%;
             height: 16%;
@@ -70,6 +75,37 @@
 
         #techstack {
             letter-spacing: 1px;
+        }
+
+        .right-div-sizing {
+            width: 90%;
+            margin: auto;
+            height: 25%;
+            border: 1px solid red;
+        }
+
+        .font-size-large {
+            font-size: 32px;
+        }
+
+        .margin-left-50px>h3 {
+            font-size: 28px;
+        }
+
+        .margin-left-50px>p {
+            font-size: 20px;
+        }
+
+        .display-flex {
+            display: flex;
+            width: 100%;
+            /* border: 1px solid blue; */
+            justify-content: space-around;
+            text-align: center;
+        }
+        .display-flex > div {
+            width: 30%;
+            background-color: rgb(205, 220, 220);
         }
     </style>
 </head>
@@ -121,10 +157,29 @@
             </div>
         </div>
         <div id="right">
-            <div>Experience</div>
-            <div>Project</div>
-            <div>Education</div>
-            <div>Certifications</div>
+            <div class="right-div-sizing">
+                <h2 class="font-size-large">Experience : </h2>
+                <div class="display-flex">
+                    <div class='margin-left-50px'>
+                        <h3>Awdiz</h3>
+                        <p>Full Stack Developer</p>
+                        <p>2020-2022</p>
+                    </div>
+                    <div class='margin-left-50px'>
+                        <h3>Amazon</h3>
+                        <p>Full Stack Developer</p>
+                        <p>2019-2020</p>
+                    </div>
+                    <div class='margin-left-50px'>
+                        <h3>Flipkart</h3>
+                        <p>Frontend Developer</p>
+                        <p>2018-2019</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right-div-sizing">Project</div>
+            <div class="right-div-sizing">Education</div>
+            <div class="right-div-sizing">Certifications</div>
         </div>
     </div>
     <!-- margin-left : 25%; 
