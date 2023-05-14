@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #screen {
+            border: 5px solid black;
+        }
+
+        #top {
+            border: 1px solid red;
+            height: 55px;
+            background-color: rgb(68, 67, 67);
+        }
+
+        #navbar {
+            width: 100%;
+            border: 1px solid red;
+            height: 40px;
+            background-color: #232f3e;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #nav-left {
+            width: 72%;
+            /* border: 2px solid white; */
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            /* padding-top: 8px; */
+        }
+
+        #nav-left>span:hover {
+            border: 1px solid white;
+        }
+
+        #nav-right {
+            width: 25%;
+        }
+        #nav-right:hover {
+            border: 2px solid white;
+        }
+
+        #body {
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div id="top">Top Navbar</div>
+        <div id="navbar">
+            <div id="nav-left">
+                <span>All</span>
+                <span>Amazon Minitv</span>
+                <span>Sell</span>
+                <span>Best sellers</span>
+                <span>Today's deals</span>
+                <span>Mobiles</span>
+                <span>SCustomer Service</span>
+                <span>Electronices</span>
+                <span>New release</span>
+                <span>Prime</span>
+                <span>Home & Kitchen</span>
+                <span>Amazon Pay</span>
+            </div>
+            <div id="nav-right">
+                <div>
+                    <img style="width:100%; height:100%" src="https://m.media-amazon.com/images/G/31/AmazonVideo/2021/X-site/SingleTitle/Air/400x39-SWM_NP._CB589429826_.jpg" />
+                </div>
+            </div>
+        </div>
+        <div id="body">Body</div>
+        <div id="footer">Footer</div>
+    </div>
+
+</body>
+
+</html>
