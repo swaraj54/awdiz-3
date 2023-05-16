@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10</title>
+    <style>
+        #parent {
+            width: 100%;
+            border: 5px solid red;
+            text-align: center;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #parent>div {
+            width: 30%;
+            height: 200px;
+            border: 5px solid blue;
+        }
+
+        /* #parent>div:nth-child(1)>div */
+        #parent>div>div {
+            border: 5px solid yellow;
+        }
+
+        @media screen and (max-width: 400px) {
+            #parent {
+                border: 5px solid black;
+                flex-direction: column;
+                text-align: right;
+            }
+
+            #parent>div {
+                border: 5px solid green;
+                width: 80%;
+                margin: auto;
+                margin-bottom: 20px;
+            }
+
+            /* #parent>div:nth-child(3) */
+            /* .div */
+            #parent>div {
+                border: 5px solid red;
+                display: flex;
+            }
+
+            /* #parent>div:nth-child(2)>div */
+            #parent>div>div {
+                width: 30%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="parent">
+        <div class="div">
+            <div>A - 1</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+        <div class="div">
+            <div>A - 2</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+        <div class="div">
+            <div>A - 3</div>
+            <div>B</div>
+            <div>C</div>
+        </div>
+    </div>
+</body>
+
+</html>
