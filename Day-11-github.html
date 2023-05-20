@@ -16,13 +16,13 @@
         #screen {
             width: 100%;
             /* height: 400px; */
-            border: 2px solid red;
+            /* border: 2px solid red; */
         }
 
         #navbar {
             width: 100%;
             height: 60px;
-            border: 2px solid blue;
+            /* border: 2px solid blue; */
             display: flex;
             justify-content: space-between;
         }
@@ -32,14 +32,14 @@
         }
 
         #navbar>div:nth-child(2) {
-            border: 2px solid blue;
+            /* border: 2px solid blue; */
             width: 60%;
             display: flex;
             justify-content: space-between;
         }
 
         #navbar>div:nth-child(2)>div:nth-child(1) {
-            border: 1px solid red;
+            /* border: 1px solid red; */
             width: 10%;
         }
 
@@ -56,7 +56,7 @@
         }
 
         #navbar>div:nth-child(3) {
-            border: 2px solid purple;
+            /* border: 2px solid purple; */
             width: 7%;
             display: flex;
             justify-content: space-between;
@@ -68,6 +68,7 @@
             border: 2px solid purple;
         }
 
+        /* 0 - 416 */
         @media screen and (max-width: 416px) {
             #navbar>div:nth-child(2)>div:nth-child(2) {
                 display: none;
@@ -84,6 +85,31 @@
             #navbar>div:nth-child(3)>div:nth-child(3) {
                 display: none;
             }
+
+            #navbar {
+                background-color: #24292f;
+            }
+
+            #navbar>div:nth-child(1) {
+                width: 10%;
+                display: block;
+                padding-top: 20px;
+                padding-left: 15px;
+                /* border: 1px solid red; */
+            }
+
+            #navbar>div:nth-child(2) {
+                padding: 20px;
+                width: 10%;
+                /* border: 1px solid red; */
+            }
+
+            #navbar>div:nth-child(3) {
+                width: 10%;
+                padding-top: 20px;
+                padding-right: 5px;
+                /* border: 1px solid red; */
+            }
         }
     </style>
 </head>
@@ -91,9 +117,13 @@
 <body>
     <div id="screen">
         <div id="navbar">
-            <div>1</div>
             <div>
-                <div>Logo</div>
+                <i class="fa-solid fa-bars fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <div>
+                <div>
+                    <i class="fa-brands fa-github fa-2xl" style="color: #ffffff;"></i>
+                </div>
                 <div>sEARCH</div>
                 <div>
                     <p>Pull request</p>
@@ -105,7 +135,7 @@
             </div>
             <div>
                 <div>
-                    <i class="fa-regular fa-bell fa-lg"></i>
+                    <i class="fa-regular fa-bell fa-lg" style="color: #ffffff;"></i>
                 </div>
                 <div>
                     <i class="fa-solid fa-plus fa-lg"></i>
