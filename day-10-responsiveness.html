@@ -52,6 +52,18 @@
                 width: 30%;
             }
 
+            /* #parent>div:nth-child(2) {
+                display: none;
+            } */
+            /* #parent>div:nth-child(2)>div:nth-child(2) {
+                color: red;
+                display: none;
+            } */
+            #parent>div>div:nth-child(2) {
+                /* color: red; */
+                display: none;
+            }
+
         }
     </style>
 </head>
@@ -65,7 +77,7 @@
         </div>
         <div class="div">
             <div>A - 2</div>
-            <div>B</div>
+            <div>B -target</div>
             <div>C</div>
         </div>
         <div class="div">
