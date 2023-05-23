@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="https://kit.fontawesome.com/8624324425.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart-test</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #header {
+            border: 1px solid black;
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: blue;
+            color: white;
+
+        }
+
+        #logo {
+            border: 1px solid black;
+            height: 60px;
+            width: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 10%;
+
+        }
+
+        #flip-logo {
+            height: 18px;
+            margin-top: 5%;
+        }
+
+        #logo>a {
+            color: white;
+            font-style: italic;
+        }
+
+        #logo>a>span {
+            margin-left: 4px;
+            color: yellow;
+        }
+
+        #logo>a>img {
+            height: 8px;
+
+        }
+
+        #search {
+            border: 1px solid black;
+            height: 40px;
+            width: 30%;
+            background-color: white;
+        }
+
+        #search>input {
+            width: 91%;
+            height: 40px;
+            margin-left: 5px;
+            border: none;
+            outline: none;
+        }
+
+        #search>i {
+            color: blue;
+        }
+
+        #login-button {
+            width: 8%;
+            height: 40px;
+            color: blue;
+            font-size: larger;
+        }
+
+        #seller {
+            border: 1px solid black;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            color: white;
+
+        }
+
+        #seller>a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        #more {
+            border: 1px solid black;
+            height: 40px;
+            display: flex;
+            align-items: center;
+
+        }
+
+        #more>a {
+            text-decoration: none;
+            color: white;
+
+        }
+
+        #cart {
+            border: 1px solid black;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            margin-right: 10%;
+            color: white;
+
+        }
+
+        #more>select {
+            width: 15px;
+            margin-left: 2px;
+            border: none;
+            outline: none;
+            background-color: blue;
+            color: white;
+        }
+
+        #second-header {
+            border: 1px solid black;
+            width: 100%;
+            height: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .second-header-content-div {
+            border: 1px solid black;
+            width: 12%;
+            text-align: center;
+        }
+
+        .second-header-content-div>a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .second-header-content-div>select {
+            border: none;
+            outline: none;
+        }
+
+        #body {
+            border: 1px solid black;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #for-left-side {
+            border: 1px solid black;
+            width: 20%;
+            height: 600px;
+        }
+
+        .for-left-side-title {
+            border: 1px solid black;
+            width: 90%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px;
+        }
+
+        .for-left-side-title>select:nth-child(2) {
+            border: none;
+            outline: none;
+        }
+
+        .for-left-side-title>P:nth-child(1) {
+            font-size: 18px;
+            font-weight: 400;
+        }
+
+        .for-left-side-title>P:nth-child(2) {
+            color: blue;
+        }
+
+        #women-button {
+            height: 30px;
+            width: 22%;
+            margin: 10px;
+        }
+
+        #select-tag {
+            border: none;
+            outline: none;
+        }
+
+        #select-tag>option {
+            border: none;
+            outline: none;
+
+        }
+
+        #rest-assure {
+            height: 20px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #for-right-side {
+            border: 1px solid black;
+            width: 78%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .for-right-side-inner-div {
+            width: 20%;
+            height: 350px;
+            border: 1px solid black;
+            margin-top: 8px;
+        }
+
+        .for-right-side-inner-div>div {
+            width: 100%;
+            border: 1px solid black;
+        }
+        .for-right-side-inner-div>div>img{
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <img id="flip-logo"
+                src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png" />
+            <a href="#">Explore<span>Plus</span><img
+                    src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png" /></a>
+        </div>
+        <div id="search">
+            <input placeholder="Search for products,brands and more" />
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <input id="login-button" type="button" value="login" />
+        <div id="seller">
+            <a href="#">Become a Seller</a>
+        </div>
+        <div id="more">
+            <a href="#">More</a>
+            <select></select>
+        </div>
+        <div id="cart">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <a>Cart</a>
+        </div>
+    </div>
+    <div id="second-header">
+        <div class="second-header-content-div">
+            <a href="#">Electronic</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">TVS & Appliances</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Men</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Women</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Baby & Kids</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Home & Furniture</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Sports,Books & More</a>
+            <select></select>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Flights</a>
+        </div>
+        <div class="second-header-content-div">
+            <a href="#">Offer Zone</a>
+        </div>
+
+    </div>
+    <div id="body">
+        <div id="for-left-side">
+            <div class="for-left-side-title">
+                <p>Filter</p>
+                <p>Clear ALL</p>
+            </div>
+            <input id="women-button" type="button" value="X Women" />
+            <div class="for-left-side-title">
+                <p>CATEGORIES</p>
+            </div>
+            <select id="select-tag">
+                <option>Topwear</option>
+                <option>Shirt</option>
+                <option>T-Shirt</option>
+                <option>Tops</option>
+            </select>
+            <div class="for-left-side-title">
+                <p>GENDER</p>
+                <Select></Select>
+            </div>
+            <div class="for-left-side-title">
+                <input type="checkbox" />
+                <img id="rest-assure"
+                    src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/fa_62673a.png" />
+            </div>
+        </div>
+        <div id="for-right-side">
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+            <div class="for-right-side-inner-div">
+                <div>
+                    <img src="https://rukminim1.flixcart.com/image/612/612/l2tcfbk0/t-shirt/0/b/z/s-jb-tsh-babe-llc-juneberry-original-image2r52ggvrkd4.jpeg?q=70"/>
+
+                </div>
+                <p>JUNEBERRY</p>
+                <p>Women Tie & Dye Round Ne..</p>
+                <p><strong>&#8377 299</strong> <del>&#8377 1,199</del> 75% off</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
