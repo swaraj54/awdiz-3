@@ -7,7 +7,7 @@ Boolean - true , false
 
 Varibles - we can store the data - 
 Sntax = 
-var kuchbhi = 'Awdiz';
+var kuchbhi = '8976543';
 console.log(kuchbhi);    
 
 var kuchbhi = '12345';
@@ -23,3 +23,53 @@ console.log(typeof (booleanValue))
 var booleanValue = false;
 console.log(booleanValue)
 console.log(typeof (booleanValue))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+datatypes
+string , number, Boolean  
+varibles 
+console.log(); 
+typeof();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
