@@ -96,3 +96,15 @@ console.log(num1 > 50 && num1 < 99 && num1 < 10)
 console.log(num1 > 50 || num1 < 90 || num1 < 20)
 
 
+// datatypes
+// string , number, Boolean  
+// varibles 
+// console.log(); 
+// typeof();
+// Condition statment - if else 
+// && || 
+// + - * /
+// = == ===
+// ++
+// < > <= >= 
+
