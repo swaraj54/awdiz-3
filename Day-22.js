@@ -81,3 +81,37 @@ function addition(num1, num2 ){
 addition(num1,num2)
 
 
+
+Q. Find subtraction of give two numbers by using function. 
+
+var number1 = 9876;
+var number2 = 5678;
+function subtraction(){
+
+}
+
+Q. Find multiplication of give two numbers by using function. 
+
+var number3 = 9876;
+var number4 = 5678;
+function multiplication(){
+    
+}
+
+Q. Find dividation of give two numbers by using function. 
+
+var number5 = 9876;
+var number6 = 5678;
+function divid(){
+    
+}
+
+Q. Find three numbers from given array who's addition is equal to target.
+
+
+var array = [34,45,56,67,78,34,76,234,567,7834,56,34];
+var target = 112;
+function additionOfThreeNumber(){
+    
+}
+
