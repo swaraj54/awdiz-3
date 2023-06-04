@@ -112,6 +112,19 @@ Q. Find three numbers from given array who's addition is equal to target.
 var array = [34,45,56,67,78,34,76,234,567,7834,56,34];
 var target = 112;
 function additionOfThreeNumber(){
-    
+
 }
 
+
+
+var flag = false;
+var awdiz = 876;
+
+if(awdiz > 100){
+    console.log("awdiz is greter than 100");
+    flag = true;
+}
+
+if(flag == false){
+    console.log("Awdiz is lesser than 100")
+}
