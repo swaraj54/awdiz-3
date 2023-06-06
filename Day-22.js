@@ -116,7 +116,7 @@ function additionOfThreeNumber(){
 }
 
 
-
+// Flag system
 var flag = false;
 var awdiz = 876;
 
@@ -128,3 +128,8 @@ if(awdiz > 100){
 if(flag == false){
     console.log("Awdiz is lesser than 100")
 }
+
+
+
+
+
