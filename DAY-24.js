@@ -18,9 +18,6 @@ function register(event) {
 
     localStorage.setItem("StudentsList", JSON.stringify(userData))
 
-
-
-
     document.getElementById("userName").value = ""; // assigning
     document.getElementById("userNumber").value = "";
     document.getElementById("userEmail").value = "";
@@ -77,11 +74,17 @@ function register(event) {
 // JSON.parse(DATA) => JSON TO JS
 
 
-login 
-register 
-home 
-mutliple, men, women , kidsa, 6
-single page,
-profile,
-cart 
-wishlist
+// login 
+// register 
+// home 
+// mutliple, men, women , kidsa, 6
+// single page,
+// profile,
+// cart 
+// wishlist
+
+
+
+
+
+
