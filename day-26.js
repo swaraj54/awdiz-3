@@ -4,7 +4,7 @@
 function resolveAfter2Seconds() {
     return new Promise((resolve) => {
         setTimeout(() => {
-            resolve('response');
+            resolve('Awdiz');
         }, 5000);
     });
 }
@@ -20,6 +20,6 @@ asyncCall();
 
 
 
-// setTimeout(() => { console.log("After 5 sec..") } , 2000)
-// setInterval(() => { console.log("Got..") }, 5000)
+setTimeout(() => { console.log("After 5 sec..") } , 2000)
+setInterval(() => { console.log("Got..") }, 5000)
 
