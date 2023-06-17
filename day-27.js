@@ -71,10 +71,13 @@
 // result.push(filteredArray[(j += 1)])  j+= samjao
 
 
-var j = 1;
+// var j = 1;
 
-j += 3;
-// j++;
-j += 5;
+// j += 3;
+// // j++;
+// j += 5;
 
-console.log(j);
+// console.log(j);
+
+
+
